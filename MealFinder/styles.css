@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(202, 86, 8);
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.form .textInput {
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 1.1rem;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+
+.form .button {
+    height: 35px;
+    width: 50px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.form .button .fas {
+    font-size: 1.05rem;
+}
+
+.allBox .mealAllBox {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 175px);
+    grid-gap: 20px;
+}
+
+.allBox .mealAllBox .mealBox {
+    width: 175px;
+    height: 175px;
+    border: 5px solid #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.allBox .mealAllBox img {
+    width: 165px;
+    height: 165px;
+    position: absolute;
+}
+
+.mealInfo {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mealInfo img {
+    width: 400px;
+    height: 400px;
+    border: 5px solid #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mealInfo .aboutShort {
+    border: 5px dotted green;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mealInfo .aboutShort .foodType {
+    padding-bottom: 10px;
+}
